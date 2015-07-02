@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KRISTINLPT</Machine>
+    <WindowsUser>krievley</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1a11d19a-3212-4c31-8ad1-8d445ff7b0f9</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>17A41C3FBAAB2D12AAA14BA474E606E541F645F2B77EE8A0F054A36B3F0572B1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1a11d19a-3212-4c31-8ad1-8d445ff7b0f9_1.0.0.0_neutral__knhb2bp5nmjbr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1a11d19a-3212-4c31-8ad1-8d445ff7b0f9_knhb2bp5nmjbr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1a11d19a-3212-4c31-8ad1-8d445ff7b0f9</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=krievley</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-16T02:55:21.347</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\bin\Debug\tictactoeApp.Windows.exe">
+      <PackagePath>tictactoeApp.Windows.exe</PackagePath>
+      <Modified>2015-07-02T21:33:53.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\packages\WindowsAzure.MobileServices.1.3.1\lib\netcore45\Microsoft.WindowsAzure.Mobile.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.dll</PackagePath>
+      <Modified>2015-02-16T02:55:16.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\packages\WindowsAzure.MobileServices.1.3.1\lib\netcore45\Microsoft.WindowsAzure.Mobile.Ext.dll">
+      <PackagePath>Microsoft.WindowsAzure.Mobile.Ext.dll</PackagePath>
+      <Modified>2015-02-16T02:55:16.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\packages\Newtonsoft.Json.6.0.4\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-02-16T02:55:16.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\packages\Microsoft.Net.Http.2.2.28\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2015-02-16T02:55:15.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\packages\Microsoft.Net.Http.2.2.28\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2015-02-16T02:55:15.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T15:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T15:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T15:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T15:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\Assets\o.JPG">
+      <PackagePath>Assets\o.JPG</PackagePath>
+      <Modified>2015-02-12T20:34:23.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\Assets\x.JPG">
+      <PackagePath>Assets\x.JPG</PackagePath>
+      <Modified>2015-02-12T20:34:23.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-02-16T02:55:19.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\bin\Debug\Game.xbf">
+      <PackagePath>Game.xbf</PackagePath>
+      <Modified>2015-02-16T02:55:19.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-02-16T02:55:19.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\bin\Debug\tictactoeApp.Windows.xr.xml">
+      <PackagePath>tictactoeApp.Windows.xr.xml</PackagePath>
+      <Modified>2015-02-16T02:55:19.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\krievley\Documents\Visual Studio 2013\Projects\tictactoeAppSolution\tictactoeApp\tictactoeApp.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-07-02T21:33:55.005</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

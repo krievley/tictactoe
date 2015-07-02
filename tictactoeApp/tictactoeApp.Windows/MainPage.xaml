@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="tictactoeApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:tictactoeApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" Margin="61,43,0,0" TextWrapping="Wrap" Text="Tic-Tac-Toe Game" VerticalAlignment="Top" FontSize="72"/>
+        <RadioButton x:Name="netRadio" GroupName="service" Checked="RadioButton_Checked" Content="Use .NET Mobile Service" HorizontalAlignment="Left" Margin="276,180,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Global User Interface"/>
+        <RadioButton x:Name="jsRadio" GroupName="service" Checked="RadioButton_Checked" Content="Use JavaScript Mobile Service" HorizontalAlignment="Left" Margin="798,180,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Grid x:Name="jsGrid" Visibility="Collapsed" Margin="10,-57,-10,57" >
+            <TextBlock HorizontalAlignment="Left" Margin="744,301,0,0" TextWrapping="Wrap" Text="URI" VerticalAlignment="Top" FontSize="20" RenderTransformOrigin="-0.518,1.225"/>
+            <TextBox x:Name="jsUri" HorizontalAlignment="Left" Margin="802,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Global User Interface" Width="384" Text="https://csci-e64-krievley-tictactoe-js.azure-mobile.net/api/executemove"/>
+            <TextBox x:Name="jsKey" HorizontalAlignment="Left" Margin="840,349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Global User Interface" Width="346" Text="GfaksWTQjdTSDNoltPegxjseVdcSfn65"/>
+            <TextBlock HorizontalAlignment="Left" Margin="744,357,0,0" TextWrapping="Wrap" Text="API Key" VerticalAlignment="Top" FontSize="20"/>
+        </Grid>
+        <Grid x:Name="netGrid" Visibility="Collapsed" Margin="-64,-57,64,57" >
+            <TextBox x:Name="netUri" HorizontalAlignment="Left" Margin="334,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390" Text="https://csci-e64-krievley-tictactoe-net.azure-mobile.net/api/executemove" AcceptsReturn="True" FontFamily="Global User Interface"/>
+            <TextBox x:Name="netKey" HorizontalAlignment="Left" Margin="358,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" Text="PvIVSGqsLshQzWXNbGBVitaGtgDdwU83"/>
+            <TextBlock HorizontalAlignment="Left" Margin="269,301,0,0" TextWrapping="Wrap" Text="URI" VerticalAlignment="Top" FontSize="20"/>
+            <TextBlock HorizontalAlignment="Left" Margin="269,354,0,0" TextWrapping="Wrap" Text="API Key" VerticalAlignment="Top" FontSize="20"/>
+        </Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="537,400,0,0" TextWrapping="Wrap" Text="Choose 1st Player" VerticalAlignment="Top" FontSize="36" RenderTransformOrigin="0.489,-0.833"/>
+        <RadioButton x:Name="human" GroupName="player" Click="human_Click" Content="Human Player" HorizontalAlignment="Left" Margin="470,458,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Global User Interface"/>
+        <RadioButton x:Name="computer" GroupName="player" Click="computer_Click" Content="Computer Player" HorizontalAlignment="Left" Margin="677,458,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Button x:Name="startButton" Click="startButton_Click" Content="Start Game" HorizontalAlignment="Left" Margin="487,600,0,0" VerticalAlignment="Top" FontSize="72"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="tictactoeApp\tictactoeApp.Windows\tictactoeApp.Windows.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="tictactoeApp\tictactoeApp.Windows\MainPage.xaml">
+    <Files>
+      <File FileName="tictactoeApp\tictactoeApp.Windows\MainPage.xaml" Line="180" Column="180" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
